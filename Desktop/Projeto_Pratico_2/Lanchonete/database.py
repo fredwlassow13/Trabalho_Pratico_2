@@ -1,7 +1,7 @@
 import pymongo
 
 class Database:
-    def _init_(self, database, collection):
+    def __init__(self, database, collection):
         self.connect(database, collection)
 
     def connect(self, database, collection):
